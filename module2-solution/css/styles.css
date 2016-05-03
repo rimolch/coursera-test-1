@@ -11,6 +11,18 @@ text-align: center;
 margin-bottom: 15px;
 }
 
+h2 {
+text-align: center;
+font-weight: bold;
+position: relative;
+float: right;
+right: -1px;
+top: -1px;
+margin: 0px;
+border: 1px solid black;
+width: 200px;
+}
+
 .menubox {
 background-color: grey;
 border: 1px solid black;
@@ -48,17 +60,6 @@ float: left;
 
 .text {
 clear: right;
-}
-
-.boxtitle {
-position: relative;
-float: right;
-right: -1px;
-top: -1px;
-font-weight: bold;
-text-align: center;
-border: 1px solid black;
-width: 200px;
 }
 
 #chicken {
