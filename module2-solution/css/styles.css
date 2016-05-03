@@ -25,7 +25,7 @@ width: 100%;
 }                                                                                                                                                          
 } 
 
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 991px) {
 .half {
 width: 50%;
 float: left;
@@ -35,7 +35,7 @@ width: 100%;
 }
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 992px) {
 .half {
 width: 33.33%;
 float: left;
