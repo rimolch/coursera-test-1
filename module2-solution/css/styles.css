@@ -1,21 +1,21 @@
 h2 {
-text-align=center;
+text-align: center;
 }
 
 .menubox {
-border = 1px;
+border: 1px;
 }
 
 .boxtitle {
-float = rigth;
-border = 1px;
+float: rigth;
+border: 1px;
 }
 
 .half {
-width = 50%;
-float = left;
+width: 50%;
+float: left;
 }
 
 .full {
-width = 100%;
+width: 100%;
 }
