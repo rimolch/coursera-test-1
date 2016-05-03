@@ -4,7 +4,7 @@
 
 body {
 font-family: Arial, Helvetica, sans-serif;
-margin: 0px;
+margin: 10px;
 }
 
 h1 {
@@ -27,7 +27,7 @@ width: 200px;
 .menubox {
 background-color: grey;
 border: 1px solid black;
-margin: 15px;
+margin: 10px;
 }
 
 @media (max-width: 767px) {                                                                                                         
