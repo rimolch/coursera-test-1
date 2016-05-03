@@ -19,11 +19,14 @@ float: left;
 width: 100%;
 }
 
+.text {
+clear: right;
+}
+
 .boxtitle {
 font-weight: bold;
 text-align: center;
 float: right;
-clear: both;
 border: 5px black;
 margin: 0;
 width: 33%;
