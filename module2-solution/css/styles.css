@@ -1,14 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
 font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
 text-align: center;
+margin-bottom: 15px;
 }
 
 .menubox {
 background-color: grey;
-border: 1px black;
+border: 1px solid black;
 }
 
 .half {
@@ -28,7 +33,7 @@ clear: right;
 font-weight: bold;
 text-align: center;
 float: right;
-border: 5px black;
+border: 1px solid black;
 margin: 0;
 width: 33%;
 }
