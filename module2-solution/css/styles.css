@@ -51,7 +51,7 @@ width: 100%;
 
 @media (min-width: 992px) {
 .half {
-width: 33.33%;
+width: 33%;
 float: left;
 }
 .full {
