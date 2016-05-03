@@ -1,3 +1,7 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+
 h2 {
 text-align: center;
 }
@@ -16,8 +20,10 @@ width: 100%;
 }
 
 .boxtitle {
-float: top rigth;
-border: 1px black;
+font-weight: bold;
+float: right;
+clear: left;
+border: 5px black;
 margin: 0;
 width: 33%;
 }
