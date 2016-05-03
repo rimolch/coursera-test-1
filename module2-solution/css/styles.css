@@ -16,13 +16,34 @@ background-color: grey;
 border: 1px solid black;
 }
 
+@media (max-width: 767px) {                                                                                                         
+.half {                                                                                                                                                    
+width: 100%;                                                                                                                                      
+}                                                                                                                                                          
+.full {                                                                                                                                                    
+width: 100%;                                                                                                                                               
+}                                                                                                                                                          
+} 
+
+@media (min-width: 768px) and (max-width: 992px) {
 .half {
 width: 50%;
 float: left;
 }
-
 .full {
 width: 100%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+.half {
+width: 33.33%;
+float: left;
+}
+.full {
+width: 33.33%;
+float: left;
+}
 }
 
 .text {
