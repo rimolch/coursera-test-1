@@ -34,7 +34,7 @@ font-weight: bold;
 text-align: center;
 float: right;
 border: 1px solid black;
-margin: 0;
+margin: -1px;
 width: 33%;
 }
 
