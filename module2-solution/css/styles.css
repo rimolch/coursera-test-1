@@ -3,12 +3,7 @@ text-align: center;
 }
 
 .menubox {
-border: 1px;
-}
-
-.boxtitle {
-float: rigth;
-border: 1px;
+border: 1px black;
 }
 
 .half {
@@ -18,4 +13,26 @@ float: left;
 
 .full {
 width: 100%;
+}
+
+.boxtitle {
+float: top rigth;
+border: 1px black;
+margin: 0;
+width: 33%;
+}
+
+#chicken {
+background-color: #FF6666;
+color: black;
+}
+
+#beef {
+background-color: #CC0000;
+color: white;
+}
+
+#sushi {
+background-color: #CCCC00;
+color: black;
 }
