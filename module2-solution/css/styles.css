@@ -52,6 +52,7 @@ clear: right;
 
 .boxtitle {
 position: relative;
+float: right;
 right: -1px;
 top: -1px;
 font-weight: bold;
