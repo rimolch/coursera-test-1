@@ -5,7 +5,6 @@
 body {
 font-family: Arial, Helvetica, sans-serif;
 margin: 10px;
-padding: 0px;
 }
 
 h1 {
@@ -59,6 +58,7 @@ float: left;
 }
 
 .text {
+padding: 10px;
 clear: right;
 }
 
