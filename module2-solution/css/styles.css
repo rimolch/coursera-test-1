@@ -51,12 +51,13 @@ clear: right;
 }
 
 .boxtitle {
+position: relative;
+right: -1px;
+top: -1px;
 font-weight: bold;
 text-align: center;
-float: right;
 border: 1px solid black;
-margin: -1px;
-width: 33%;
+width: 200px;
 }
 
 #chicken {
