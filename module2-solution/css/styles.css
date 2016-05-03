@@ -27,6 +27,12 @@ padding: 5px 0px 5px 0px;
 width: 200px;
 }
 
+p {
+padding: 10px;
+clear: right;
+font-size: 100%;
+}
+
 .menubox {
 background-color: grey;
 border: 1px solid black;
@@ -56,12 +62,6 @@ clear: both;
 width: 33.33%;
 float: left;
 }
-}
-
-.text {
-padding: 10px;
-clear: right;
-font-size: 100%;
 }
 
 #chicken {
