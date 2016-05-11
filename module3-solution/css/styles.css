@@ -21,6 +21,6 @@ body {
   text-decoration: none;
 }
 
-.navbar-toggle {
+.navbar-toggle.collapsed {
   vertical-align: middle;
 }
