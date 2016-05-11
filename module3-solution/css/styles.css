@@ -11,4 +11,5 @@ body {
 
 .navbar-brand h1{
   margin: 0px;
+  overflow: hidden;
 }
