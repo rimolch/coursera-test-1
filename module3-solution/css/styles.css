@@ -1,6 +1,3 @@
-body {
-}
-
 /** HEADER **/
 
 #header-nav {
@@ -19,4 +16,13 @@ body {
 
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
+}
+
+/** MAIN CONTENT **/
+
+.menubox {
+  border: 1px black;
+  background-color: #F5D0A9;
+  padding: 15px;
+  height: 1000px;
 }
