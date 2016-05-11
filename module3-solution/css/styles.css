@@ -21,7 +21,7 @@ body {
   text-decoration: none;
 }
 
-.navbar-toggle.collapsed {
+.navbar-toggle {
   height: 100%;
   vertical-align: middle;
 }
