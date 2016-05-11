@@ -10,7 +10,7 @@ body {
 }
 
 .vertical-center {
-  display: flex;
+/*  display: flex; */
   align-items: center;
 }
 
