@@ -22,5 +22,6 @@ body {
 }
 
 .navbar-toggle.collapsed {
+  height: 100%;
   vertical-align: middle;
 }
