@@ -12,3 +12,16 @@ body {
 .navbar-brand {
   height: auto;
 }
+
+.navbar-brand h1{
+  margin: 0px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: auto;
+  margin-bottom: auto;
+}
