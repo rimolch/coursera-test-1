@@ -20,8 +20,3 @@ body {
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
-
-.navbar-toggle {
-  height: 100%;
-  vertical-align: middle;
-}
