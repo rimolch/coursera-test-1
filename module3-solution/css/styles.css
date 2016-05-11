@@ -21,7 +21,7 @@ body {
   text-decoration: none;
 }
 
-#nav-list {
+.navbar-toggle {
   margin-top: auto;
   margin-bottom: auto;
 }
