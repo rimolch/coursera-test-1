@@ -4,11 +4,11 @@
   background-color: #F5D0A9;
   border-radius: 0;
   border: 1px solid black;
-  color: black;
 }
 
 .navbar-brand {
   height: auto;
+  color: black;
 }
 
 h1{
