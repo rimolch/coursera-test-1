@@ -8,6 +8,8 @@
 
 .navbar-brand {
   height: auto;
+}
+.navbar-brand h1{
   color: black;
 }
 
