@@ -9,5 +9,6 @@ body {
   border: 0;
 }
 
-.navbar-brand {
+.navbar-brand h2{
+  clear: both;
 }
