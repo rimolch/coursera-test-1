@@ -22,6 +22,5 @@ body {
 }
 
 .navbar-toggle {
-  margin-top: auto;
-  margin-bottom: auto;
+  vertical-align: middle;
 }
