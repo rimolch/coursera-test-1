@@ -1,1 +1,14 @@
+body {
+}
 
+/** HEADER **/
+
+#header-nav {
+  background-color: #F5D0A9;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
