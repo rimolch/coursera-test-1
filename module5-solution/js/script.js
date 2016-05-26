@@ -98,12 +98,11 @@ function buildAndShowHomeHTML (categories) {
       // 
 
       console.log(homeHtmlUrl);
-      console.log(chosenCategoryShortName);
+      console.log(homeHtml);
 
-      var homeHtmlToInsertIntoMainPage1 = "estoesunaprueba";
-      var homeHtmlToInsertIntoMainPage = insertProperty(homeHtmlToInsertIntoMainPage1, "randomCategoryShortName", "'" + chosenCategoryShortName + "'");
-      console.log(homeHtmlToInsertIntoMainPage1);
-      console.log(homeHtmlToInsertIntoMainPage);
+      var homeHtmlToInsertIntoMainPage = "homeHtml";
+      homeHtmlToInsertIntoMainPage = insertProperty(homeHtmlToInsertIntoMainPage, "randomCategoryShortName", "'" + chosenCategoryShortName + "'");
+      //console.log(homeHtmlToInsertIntoMainPage);
       
       // TODO: STEP 4: Insert the the produced HTML in STEP 3 into the main page
       // Use the existing insertHtml function for that purpose. Look through this code for an example
@@ -183,7 +182,6 @@ function buildCategoriesViewHtml(categories,
   for (var i = 0; i < categories.length; i++) {
     // Insert category values
     var html = categoryHtml;
-    console.log(html);
     var name = "" + categories[i].name;
     var short_name = categories[i].short_name;
     html = 
@@ -193,12 +191,10 @@ function buildCategoriesViewHtml(categories,
                      "short_name",
                      short_name);
     finalHtml += html;
-    console.log(html);
   }
 
   finalHtml += "</section>";
   return finalHtml;
-  console.log(finalHtml);
 }
 
 
