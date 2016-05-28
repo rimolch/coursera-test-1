@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta name="author" content="Juan Carlos">
+	<style>
+		h1{font-family: arial}
+		label:hover{font-size: 40px}
+		input:hover{font-size: 40px}
+		#first{background:lightyellow; border:10px solid yellow; margin-bottom:10px; width: 720px;font-family: arial;}
+		#lab{width: 180px;display: inline-block;text-align: right;text-align: top;font-family: arial;}
+		#ch{width: auto;font-family: arial;display: inline-block;text-align: right;text-align: top;}
+		#rgl{background-color: red;text-align: center;color: white;font-family: arial;}
+		#rgr{background-color: purple;text-align: center;color: white;font-family: arial;}
+		#Address{width: 360px;height: 50px;font-family: arial;}
+	</style>
+</head>
+
+<body>
+<!-- -->
+	<h1>Please Enter Your Details For Our Dating Website!</h1>
+
+<!-- -->
+	<form action="http://ihome.ust.hk/~rossiter/cgi-bin/show_everything.php" method="post" enctype="multipart/form-data">
+		<fieldset id="first">
+			<legend>Your Face</legend>
+			<label for="Your Image" id="lab">Your image:</label>
+			<input type="file" id="Your Image" name="image" method="fileToUpload" id="preview" required><br>
+			<img id="preview">
+		</fieldset>
+
+		<fieldset id="first">
+			<legend>Your General Details</legend>
+			<label for="Name" id="lab">Name:</label>
+			<input type="text" id="Name" name="Name" placeholder="Your full name" required><br>
+			<label for="Gender" id="lab">Gender:</label>
+			<input type="radio" id="Gender" name="Gender" value="Male" required>Male <input type="radio" id="Gender" name="Gender" value="Female"required>Female<br>
+			<label for="Age" id="lab">Age:</label>
+			<input type="number" id="Age" name="Age" value="18" required><br>
+			<label for="Date of Birth" id="lab">Date of birth:</label>
+			<input type="date" id="Date of Birth" name="Date of Birth"><br>
+			<label for="Your favourite color" id="lab">Your favourite color:</label>
+			<input type="color" id="Your favourite color" name="Color"><br>
+			<label for="Which country?" id="ch">Which country?:</label>
+			<select name="Which country?" id="Which country?">
+				<option value="No"></option>
+				<option value="It">Italy</option>
+				<option value="Ir">Ireland</option>
+				<option value="Ge">Germany</option>
+				<option value="Uk">United Kingdom</option>
+				<option value="Sp">Spain</option>
+				</select>
+		</fieldset>
+			
+		<fieldset id="first">
+			<legend>Your indicators</legend>
+			<label for="Height" id="lab">Height:</label>
+			<label id="rgl">Short:</label><input type="range" id="Height" name="Height" min="0" max="100" step="5" value="50" ><label id="rgr">Tall:</label><br>
+			<label for="Salary" id="lab">Salary:</label>
+			<label id="rgl">Poor:</label><input type="range" id="Salary" name="Salary" min="0" max="100" step="5" value="50" ><label id="rgr">Rich</label><br>
+			
+		</fieldset>
+			
+		<fieldset id="first">
+			<legend>Your Contact Information</legend>
+			<label for="Email" id="lab">Email:</label>
+			<input type="email" id="Email" name="Email" required><br>
+			<label for="Mobile" id="lab">Mobile:</label>
+			<input type="tel" id="Mobile" name="Mobile"><br>
+			<label for="Address" id="lab">Address</label>
+			<textarea name="Address" id="Address"></textarea><br>
+			<label for="Method" id="ch">Method to Contact You:</label>
+			<input type="checkbox" id="Method" name="Method" value="Email">Email
+			<input type="checkbox" id="Method" name="Method" value="Whatsapp">Whatsapp
+			<input type="checkbox" id="Method" name="Method" value="In-app chat">In-app chat
+		</fieldset>
+
+<input type="submit">
+	</form>
+
+
+	<script src="https://www.cse.ust.hk/~rossiter/dating_web_site.js"></script>
+</body>
+
+</html>
